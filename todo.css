@@ -1,0 +1,43 @@
+.todo-input {
+    border:0;
+    background-color: rgba(249, 249, 249, 0.42);
+    color:#fff;
+    height: 56px;
+    width: 500px;
+    padding-inline-start: 61px;
+    padding-inline-end: 61px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.js-toDoList{
+    width: 500px;
+    display:block;
+}
+
+.todo__li{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.toDo__button {
+    font-family: Arial;
+    padding-top: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    height: 27px;
+    width: 30px;
+    cursor: pointer;
+    color: rgba(249, 249, 249, 0.5);
+    background-color: rgba(249, 249, 249, 0.42);
+    border-radius: 50%;
+}
+
+
+.todo__span {
+    font-size: 25px;
+}
