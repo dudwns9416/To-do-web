@@ -1,0 +1,36 @@
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 70px;
+    font-family: jua;
+}
+
+.js-clock{
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.clock{
+    font-size: 100px;
+}
+
+.js-clock-sub{
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.period{
+    font-size: 50px;
+    flex-grow: 1;
+    text-align: center;
+}
+.seconds{
+    font-size: 50px;
+    flex-grow: 1;
+    text-align: center;
+}
